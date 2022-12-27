@@ -38,10 +38,11 @@ and then prints a messege regarding the updated UndoableStringBuilder, with the 
 In order to download and run the program, the following steps are required:
 
 (1) - Download the project from Git-Hub.</br>
-(2) - Open the folder in InteliJ.</br>
+(2) - Open the folder in InteliJ. <b>IMPORTANT NOTE: IF THE FOLDER IS COPIED TO A PATH THAT CONTAINS NONE ENGLISH CHARS, THEN THE FILE WONT RUN.</b></br>
 (3) - Create Main class in the src folder.</br>
 (4) - In the Main class - create a new Group Admin, and some Concrete Members to add to the GroupAdmin's list.</br>
 (5) - Register the ConcreteMembers with the admin.register(Member obj) function.</br>
 (6) - Use the append/delete/insert/undo methods at will, to update the UndoableStringBuilder, and notify the members.</br>
 (7) - Optional - you can remove a member by calling the admin.unregister(Member obj) function.</br>
 (8) - You will be able to see in console that the updates regarding the UndoableStringBuilder are being notified to the current registered ConcreteMembers.</br>
+(9) - For checking the tests classes, simply run the .java files from the src/test/java/ that contain the word "test" in them (ex: GroupAdmin_Tester, tests)
